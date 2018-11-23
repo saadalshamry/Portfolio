@@ -1,32 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <!--=======  STYLING ASSETS  =======-->
-        <!-- RESET CSS-->
-        <link rel="stylesheet" href="./assets/css/reset.css">
-        <!-- BOOTSTRAP -->
-        <link rel="stylesheet" href="./assets/vendors/bootstrap.min.css">
-        <!-- MAIN PAGE STYLING-->
-        <link rel="stylesheet" href="./assets/css/main.css">
-        <!--=======  JS ASSETS  =======-->
-        <!-- BOOTSTRAP JS-->
-        <script src="./assets/vendors/bootstrap.min.js"></script>
-        <!-- MAIN PAGE SCRIPT-->
-        <script src="./assets/js/main.js"></script>
-        <!--=======  FONTS  =======-->
-        <link
-            href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans"
-            rel="stylesheet">
-        <link rel="stylesheet"
-            href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-            integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-            crossorigin="anonymous">
-        <!-- FAVICON -->
-        <title>SAAD</title>
-    </head>
-    <body>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- =======  STYLING ASSETS  ======= -->
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="./assets/vendors/bootstrap.min.css" />
+    <!-- MAIN PAGE STYLING -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <!-- =======  JS ASSETS  ======= -->
+    <!-- BOOTSTRAP JS -->
+    <script src="./assets/vendors/bootstrap.min.js"></script>
+    <!-- JQUERY -->
+    <script src="./assets/vendors/jQuery.min.js"></script>
+    <!-- MAIN PAGE SCRIPT -->
+    <script src="./assets/js/main.js"></script>
+    <!-- =======  FONTS  ======= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+      crossorigin="anonymous"
+    />
+    <!-- FAVICON -->
+    <title>SAAD HAMMOOD</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav class="container-fluid">
+      <div class="container">
+        <ul>
+          <li class="active"><a href="">ABOUT</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
+          <i class="fab fa-github fa-2x  text-white"></i>
+        </ul>
+      </div>
+    </nav>
+    <!-- BANNER -->
+    <section class="banner"></section>
+    <!-- ABOUT -->
+    <div class="about" id="#about">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6  about-left">
+            <h1>ABOUT</h1>
+            <h2>ME</h2>
+          </div>
+          <div class="col-lg-6  about-right">
+            <img src="./assets/images/nb.jpeg" alt="" />
+            <p>
+              My name is Saad Hammood. I am a web developer and desinger. I
+              started my journey in Web Development in 2014. My goal is to be
+              the best version of me.
+              <a
+                href="./assets/images/H-Saad-Resume.pdf"
+                target="_blank"
+                class="btn btn-outline-dark"
+                >VIEW RESUME</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SKILLS -->
+    <div class="container-fluid skills-header">
+      <h1 class="text-center" id="skills">SKILLS</h1>
+    </div>
+    <div class="container">
+      <div class="skills">
+        <img src="./assets/images/html.png" alt="html logo" />
+        <img src="./assets/images/css.png" alt="css logo" />
+        <img src="./assets/images/js.png" alt="javascript logo" />
+        <img src="./assets/images/nodejs.png" alt="node js logo" />
+        <img src="./assets/images/express.png" alt="express js logo" />
+        <img src="./assets/images/mongodb.png" alt="mongodb logo" />
+        <img src="./assets/images/mysql.png" alt="mysql logo" />
+        <img src="./assets/images/git.png" alt="git logo" />
+        <img src="./assets/images/gulp.png" alt="gulp logo" />
+        <img src="./assets/images/sass.png" alt="sass logo" />
+        <img src="./assets/images/ps.png" alt="photoshop logo" />
+        <img src="./assets/images/xd.png" alt="adobe xd logo" />
+        <img src="./assets/images/php.png" alt="php logo" />
+        <img src="./assets/images/linux.png" alt="linux logo" />
+        <img src="./assets/images/jquery.png" alt="jquery logo" />
+        <img src="./assets/images/firebase.png" alt="firebase logo" />
+      </div>
+    </div>
+    <!-- PROJECTS -->
+    <div class="projects container-fluid">
+      <h1 id="projects">PROJECTS</h1>
+
+      <div class="project">
+        <span class="prev-project"> <i class="fas fa-arrow-left"></i></span>
+        <div class="project-content">
+          <img src="" class="project-image" alt="" />
+          <h3 class="project-title"></h3>
+          <p class="project-description"></p>
+          <a href="" class="project-link"></a>
+        </div>
+        <span class="next-project"> <i class="fas fa-arrow-right"></i></span>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+      <div class="container">
+        <!-- CONTACT FORM GOES HERE -->
+        <div class="contact-form">
+          <form action="">
+            <label for="name">Your Name :</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Enter Your Name"
+              id="name"
+              required
+            />
+            <label for="email">Your Email :</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Enter Your Email"
+              id="email"
+              required
+            />
+            <label for="message">Your Message:</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="form-control"
+              placeholder="Your Message"
+              id="message"
+              required
+            ></textarea>
+            <button class="btn btn-outline-info">SEND</button>
+          </form>
+        </div>
+        <!-- CONTACT INFORMATION GOES HERE -->
+        <div class="contact-info">
+          PLEASE CONTACT ME THROUGH EMAIL <br />
+          <i class="fas fa-envelope"></i> EMAIL: saad.alshamry.2012@gmail.com
+        </div>
+      </div>
+      <div class="copyright">@copyright</div>
+    </footer>
+  </body>
+
+  <!-- fix IE+11 FIXED BG BUG -->
+  <script>
+    if (navigator.userAgent.match(/Trident\/7\./)) {
+      document.body.addEventListener("mousewheel", function() {
+        event.preventDefault();
+        var wd = event.wheelDelta;
+        var csp = window.pageYOffset;
+        window.scrollTo(0, csp - wd);
+      });
+    }
+  </script>
 </html>
